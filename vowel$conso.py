@@ -1,4 +1,4 @@
-ch = str(raw_input())
+ch = input()
 CH= ch.upper()
 if(CH=='A' or CH=='E' or CH=='I' or CH=='O' or CH=='U'):
     print("Vowel")
