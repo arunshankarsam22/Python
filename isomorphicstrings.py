@@ -1,10 +1,10 @@
-Given 2 strings, check whether it is isomorphic.
+'''Given 2 strings, check whether it is isomorphic.
 Input Size : |s| <= 100000(complexity O(nlogn))
 Sample Testcase :
 INPUT
 aab xxy
 OUTPUT
-yes   
+yes'''   
 
 
 
