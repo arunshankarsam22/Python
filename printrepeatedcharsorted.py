@@ -18,7 +18,6 @@ for i in range(0,int(n1[0])):
     for j in range(i+1,int(n1[0])):
         if(str(n2[i])==str(n2[j])):
             if(str(n2[i]) in n3):
-                print (n3)
                 break
             else:
                 n3.extend((n2[i]))
