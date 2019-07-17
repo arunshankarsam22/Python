@@ -16,12 +16,13 @@ n2=m2.split()
 n3=[]
 for i in range(0,int(n1[0])):
     for j in range(i+1,int(n1[0])):
-        if(int(n2[i])==int(n2[j])):
-            if(int(n2[i]) in n3):
+        if(str(n2[i])==str(n2[j])):
+            if(str(n2[i]) in n3):
+                print (n3)
                 break
             else:
                 n3.extend((n2[i]))
 if (len(n3)==0):
     print("unique")
 else:
-    print(sorted(n3))
+    print(' '.join(sorted(n3)))
