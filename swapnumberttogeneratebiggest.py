@@ -1,0 +1,5 @@
+m1=input()
+m2=input()
+m3=m2.split()
+m4=''.join(m3)
+print(''.join((sorted(m4,reverse = True))))
