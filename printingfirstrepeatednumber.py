@@ -14,11 +14,11 @@ n1=m1.split()
 n2=m2.split()
 m3=''.join(sorted(n2))
 m4=len(m3)
-i=0
+k=0
 for i in range (0,m4-1):
     if (m3[i]==m3[i+1]):
         print(m3[i])
-        i=i+1
+        k=k+1
         break
-if(i==0):
+if(k==0):
     print("unique")
